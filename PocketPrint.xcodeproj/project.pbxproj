@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A37CCAFFBD4A6B67AF263E /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF54B8DEDFCD7714EE40A8 /* DrawView.swift */; };
+		15F079C59ABCA23F3212D064 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D448D03AEFD12FAD65278C4 /* BannerView.swift */; };
+		29D3A3E235E990855C705BD3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 828C1F8037F6B825EE7CCB57 /* PrivacyInfo.xcprivacy */; };
+		2A18B98A7D00FCF95BEAA0B9 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD87D1025AE81643EFE3FA /* CropView.swift */; };
+		32BCA61AF0729C245CBC5FB4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A95783E1A491DDED0D0660 /* HistoryView.swift */; };
+		3C0A531DCF5A4027B8565F86 /* TinyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC209037A670808FABC633A /* TinyProtocol.swift */; };
+		4656091ADF074DDB70E34821 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AF9BC54B79E7FE6F2CBC /* AppSettings.swift */; };
+		491EB549783C50DDE7B46624 /* TemplateGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A7D0C3741B70D7B2F9C68 /* TemplateGalleryView.swift */; };
+		4EB2B1F88CFE9767F6D5B301 /* DocumentPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1745A6D50575557EFBB990 /* DocumentPrintView.swift */; };
+		4ED92F93A0D97102A30DEE9F /* PrintSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB5CC4F0B9D13E3D0CAFF9 /* PrintSheet.swift */; };
+		4EE9348FDB8BF4571B1444EF /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23C072CBE85CE8542EDE34 /* Templates.swift */; };
+		5F5CA677C859C7BEA886DF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB2CB2B3F9DFE5B4F70B2C /* Assets.xcassets */; };
+		5FD93C3685F88058D7C3BF77 /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83762F474B225B1D17845698 /* ImagePipeline.swift */; };
+		65C97FF2E014D4494E2D8CA4 /* Dither.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB2AA095F8DAE62D74AB0A /* Dither.swift */; };
+		6E352EC6542065BBB588EA4B /* PrinterPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE76C5A7BD4FE653C99470 /* PrinterPickerSheet.swift */; };
+		6F825E61AA13349E0C72E895 /* Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340A59561653C8BC81531CB /* Clipboard.swift */; };
+		71923564EE9B959C5CE1A1B7 /* GrayImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FFBD4C4F681575E0FECDB /* GrayImage.swift */; };
+		757CFBB47867232702690311 /* PocketPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20517F14E6348B442BD30F9C /* PocketPrintUITests.swift */; };
+		7724AF220FEA73486A05091B /* PrinterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A1360AC8B2D93D69D66D76 /* PrinterService.swift */; };
+		77C36E9BED1ED8CCEB8D5EC9 /* DesignModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188059AB469FC76F38EF3D5 /* DesignModels.swift */; };
+		77D144A850FF47DA071DF00D /* MonoBitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8938C3169CE6F6B5CB43F1 /* MonoBitmap.swift */; };
+		8268A512DB3CE21E02C8D0F8 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC901F0D2BCC4C7C902E35 /* TextRecognizer.swift */; };
+		876B61A1C30816FAE96675D0 /* PocketPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFC22CEBE2FD0C3C710047 /* PocketPrintApp.swift */; };
+		88DF64F035C69E3FC5271724 /* tiny_d1_golden.json in Resources */ = {isa = PBXBuildFile; fileRef = D28B9E844CD25EF5EC82E705 /* tiny_d1_golden.json */; };
+		8902A51578BE7E8E0F2C3372 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B57788714A92D3F08DFCCB /* ImageStore.swift */; };
+		8D2AF1AADC49938930555AAD /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2AEABF0BF53CCCF0A83D9 /* CameraPicker.swift */; };
+		902D49F95912487A4FC514AA /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041921A5356B32789C0BF15 /* HistoryStore.swift */; };
+		9C70DCEA8622F1265C02DC9D /* PrinterCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79671E81D0004771A9C18030 /* PrinterCatalog.swift */; };
+		9E2AF9271475BFDC99500F64 /* BlockEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D447168AF458507EE2259CA /* BlockEditors.swift */; };
+		A3425BB8465F5D11D2AB5900 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6791BB3A4AA57D755C2E2 /* HomeView.swift */; };
+		A7B542B01A5CDFF884414DD6 /* DocumentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37F79D5A4598FE468246E50 /* DocumentSource.swift */; };
+		A94ED96D0CA41D2A71F662F7 /* DesignEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FCC4FE15667F9FB89F488 /* DesignEditorView.swift */; };
+		ADA350BF82240BF569B8A00B /* PocketPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D249693E41AC56EEA26E4 /* PocketPrintTests.swift */; };
+		B097C47FD6B930E75BF57E18 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BFD8E1A580247D49C0CDC /* TestPage.swift */; };
+		BF32424F38F20B17E52CDD51 /* DesignRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5BA4DBEEB48C6378A5B7A /* DesignRenderer.swift */; };
+		C4471510E5D705C50621A893 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F36D646A24CDB55F1D72A /* Components.swift */; };
+		CC2AA23F13C3D83922782BBB /* TextRaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F287DB9B78257788F05DFA /* TextRaster.swift */; };
+		D2A4C620A1F9C53D25FB9DE5 /* PrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFE0766164CD6B0DBC0438 /* PrinterView.swift */; };
+		E05877C14D95FC4CEAF3C640 /* PhotoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE233B7900D4B57CDD514875 /* PhotoEditorView.swift */; };
+		EB841B96F8B94C79161F20BE /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557E243D2D085083B9D3669 /* AppRouter.swift */; };
+		F0ED78DF9FB605882163A128 /* PhotoAdjustmentsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657A86334763161DFF77B7F /* PhotoAdjustmentsPanel.swift */; };
+		F428746DF80FA553E3B5F3CA /* WebPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFB3BAA784F10FC4E780D3 /* WebPrintView.swift */; };
+		F87D0870CE1391872B53C83F /* CodeRaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD50C7AE07914ED0632408 /* CodeRaster.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8A4218500D60B3F3F876E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0469B0E67F15AE509499A496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618E6AC24F3DC7C219CF4AA;
+			remoteInfo = PocketPrint;
+		};
+		ED3E430E79C07E8B33452757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0469B0E67F15AE509499A496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618E6AC24F3DC7C219CF4AA;
+			remoteInfo = PocketPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A5BA4DBEEB48C6378A5B7A /* DesignRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRenderer.swift; sourceTree = "<group>"; };
+		19F6791BB3A4AA57D755C2E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1C0F36D646A24CDB55F1D72A /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		1D448D03AEFD12FAD65278C4 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		20517F14E6348B442BD30F9C /* PocketPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPrintUITests.swift; sourceTree = "<group>"; };
+		22F287DB9B78257788F05DFA /* TextRaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRaster.swift; sourceTree = "<group>"; };
+		24B57788714A92D3F08DFCCB /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		26AFB3BAA784F10FC4E780D3 /* WebPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPrintView.swift; sourceTree = "<group>"; };
+		2A7BFD8E1A580247D49C0CDC /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
+		2E4A7D0C3741B70D7B2F9C68 /* TemplateGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateGalleryView.swift; sourceTree = "<group>"; };
+		30A021EA7CF7EADF23DFBF5F /* PocketPrintTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PocketPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321FFBD4C4F681575E0FECDB /* GrayImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayImage.swift; sourceTree = "<group>"; };
+		34DE76C5A7BD4FE653C99470 /* PrinterPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPickerSheet.swift; sourceTree = "<group>"; };
+		37750207F5658DCC52B1FD9E /* PocketPrint.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PocketPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A1360AC8B2D93D69D66D76 /* PrinterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterService.swift; sourceTree = "<group>"; };
+		4557E243D2D085083B9D3669 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		5CBB2AA095F8DAE62D74AB0A /* Dither.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dither.swift; sourceTree = "<group>"; };
+		60EFC22CEBE2FD0C3C710047 /* PocketPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPrintApp.swift; sourceTree = "<group>"; };
+		66CFE0766164CD6B0DBC0438 /* PrinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterView.swift; sourceTree = "<group>"; };
+		6D447168AF458507EE2259CA /* BlockEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockEditors.swift; sourceTree = "<group>"; };
+		6FC209037A670808FABC633A /* TinyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyProtocol.swift; sourceTree = "<group>"; };
+		7041921A5356B32789C0BF15 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		79671E81D0004771A9C18030 /* PrinterCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterCatalog.swift; sourceTree = "<group>"; };
+		7FCB2CB2B3F9DFE5B4F70B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		828C1F8037F6B825EE7CCB57 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		83762F474B225B1D17845698 /* ImagePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		90A95783E1A491DDED0D0660 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		94BD87D1025AE81643EFE3FA /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		9B42AF9BC54B79E7FE6F2CBC /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		9C5D249693E41AC56EEA26E4 /* PocketPrintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPrintTests.swift; sourceTree = "<group>"; };
+		9EEC485BE47FF7E136214C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A37F79D5A4598FE468246E50 /* DocumentSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSource.swift; sourceTree = "<group>"; };
+		AD8938C3169CE6F6B5CB43F1 /* MonoBitmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoBitmap.swift; sourceTree = "<group>"; };
+		BEB2AEABF0BF53CCCF0A83D9 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		BFAB5CC4F0B9D13E3D0CAFF9 /* PrintSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintSheet.swift; sourceTree = "<group>"; };
+		C188059AB469FC76F38EF3D5 /* DesignModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignModels.swift; sourceTree = "<group>"; };
+		CE233B7900D4B57CDD514875 /* PhotoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorView.swift; sourceTree = "<group>"; };
+		D28B9E844CD25EF5EC82E705 /* tiny_d1_golden.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tiny_d1_golden.json; sourceTree = "<group>"; };
+		D5FD50C7AE07914ED0632408 /* CodeRaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRaster.swift; sourceTree = "<group>"; };
+		D657A86334763161DFF77B7F /* PhotoAdjustmentsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAdjustmentsPanel.swift; sourceTree = "<group>"; };
+		D8EC901F0D2BCC4C7C902E35 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		E340A59561653C8BC81531CB /* Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard.swift; sourceTree = "<group>"; };
+		E66FCC4FE15667F9FB89F488 /* DesignEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignEditorView.swift; sourceTree = "<group>"; };
+		EA23C072CBE85CE8542EDE34 /* Templates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
+		F2DF54B8DEDFCD7714EE40A8 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		F303DE3152C927F4EE02C8CA /* PocketPrintUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PocketPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1745A6D50575557EFBB990 /* DocumentPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPrintView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04ABE92722A5B19B1CB58093 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1D448D03AEFD12FAD65278C4 /* BannerView.swift */,
+				FD1745A6D50575557EFBB990 /* DocumentPrintView.swift */,
+				F2DF54B8DEDFCD7714EE40A8 /* DrawView.swift */,
+				26AFB3BAA784F10FC4E780D3 /* WebPrintView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		387B9047861EE06CDF4FE3BB /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				94BD87D1025AE81643EFE3FA /* CropView.swift */,
+				D657A86334763161DFF77B7F /* PhotoAdjustmentsPanel.swift */,
+				CE233B7900D4B57CDD514875 /* PhotoEditorView.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		4F86DF2DEEE13CE89A7869ED /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB5CC4F0B9D13E3D0CAFF9 /* PrintSheet.swift */,
+			);
+			path = Print;
+			sourceTree = "<group>";
+		};
+		53020D2CCE3C7340F846CA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37750207F5658DCC52B1FD9E /* PocketPrint.app */,
+				30A021EA7CF7EADF23DFBF5F /* PocketPrintTests.xctest */,
+				F303DE3152C927F4EE02C8CA /* PocketPrintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5853540A8DA2BF71BF083A5E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				19F6791BB3A4AA57D755C2E2 /* HomeView.swift */,
+				2E4A7D0C3741B70D7B2F9C68 /* TemplateGalleryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6E3F80C5A5DB7AA57AF2C1FC /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				9B42AF9BC54B79E7FE6F2CBC /* AppSettings.swift */,
+				79671E81D0004771A9C18030 /* PrinterCatalog.swift */,
+				40A1360AC8B2D93D69D66D76 /* PrinterService.swift */,
+				6FC209037A670808FABC633A /* TinyProtocol.swift */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		6F9389DB67089FF721B3EA44 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				34DE76C5A7BD4FE653C99470 /* PrinterPickerSheet.swift */,
+				66CFE0766164CD6B0DBC0438 /* PrinterView.swift */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		7448D33EF50E759C50DB7510 /* Imaging */ = {
+			isa = PBXGroup;
+			children = (
+				D5FD50C7AE07914ED0632408 /* CodeRaster.swift */,
+				5CBB2AA095F8DAE62D74AB0A /* Dither.swift */,
+				A37F79D5A4598FE468246E50 /* DocumentSource.swift */,
+				321FFBD4C4F681575E0FECDB /* GrayImage.swift */,
+				83762F474B225B1D17845698 /* ImagePipeline.swift */,
+				AD8938C3169CE6F6B5CB43F1 /* MonoBitmap.swift */,
+				22F287DB9B78257788F05DFA /* TextRaster.swift */,
+				D8EC901F0D2BCC4C7C902E35 /* TextRecognizer.swift */,
+			);
+			path = Imaging;
+			sourceTree = "<group>";
+		};
+		7B1E6AADCD3BFA19559188CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4557E243D2D085083B9D3669 /* AppRouter.swift */,
+				60EFC22CEBE2FD0C3C710047 /* PocketPrintApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7F121C2E79F7B5D75095F9B8 /* PocketPrint */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E6AADCD3BFA19559188CC /* App */,
+				CC4BBA1361D82ED718BEC55B /* Design */,
+				7448D33EF50E759C50DB7510 /* Imaging */,
+				6E3F80C5A5DB7AA57AF2C1FC /* Printer */,
+				AD2BDDDE1266B7FEBB8FD54C /* Storage */,
+				C20D4404EF5E3B942F31D51A /* Views */,
+				7FCB2CB2B3F9DFE5B4F70B2C /* Assets.xcassets */,
+				9EEC485BE47FF7E136214C7F /* Info.plist */,
+				828C1F8037F6B825EE7CCB57 /* PrivacyInfo.xcprivacy */,
+			);
+			path = PocketPrint;
+			sourceTree = "<group>";
+		};
+		83CE915ED794C9198846DAF6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				90A95783E1A491DDED0D0660 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8DB0729EFFE9F3D7044B56B7 /* PocketPrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0448BDC12A5FC23CF46C7F6 /* Fixtures */,
+				9C5D249693E41AC56EEA26E4 /* PocketPrintTests.swift */,
+			);
+			path = PocketPrintTests;
+			sourceTree = "<group>";
+		};
+		9CDA8FA2FFFEF521EA9F0EC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2AEABF0BF53CCCF0A83D9 /* CameraPicker.swift */,
+				1C0F36D646A24CDB55F1D72A /* Components.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9FAA4E8485CF7E35F547F5A9 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6D447168AF458507EE2259CA /* BlockEditors.swift */,
+				E66FCC4FE15667F9FB89F488 /* DesignEditorView.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		AD2BDDDE1266B7FEBB8FD54C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E340A59561653C8BC81531CB /* Clipboard.swift */,
+				7041921A5356B32789C0BF15 /* HistoryStore.swift */,
+				24B57788714A92D3F08DFCCB /* ImageStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		BDCF55D567028FDAF1E893E2 = {
+			isa = PBXGroup;
+			children = (
+				7F121C2E79F7B5D75095F9B8 /* PocketPrint */,
+				8DB0729EFFE9F3D7044B56B7 /* PocketPrintTests */,
+				D6B406B9A57564040D46D52E /* PocketPrintUITests */,
+				53020D2CCE3C7340F846CA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C20D4404EF5E3B942F31D51A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA8FA2FFFEF521EA9F0EC9 /* Common */,
+				9FAA4E8485CF7E35F547F5A9 /* Design */,
+				83CE915ED794C9198846DAF6 /* History */,
+				5853540A8DA2BF71BF083A5E /* Home */,
+				387B9047861EE06CDF4FE3BB /* Photo */,
+				4F86DF2DEEE13CE89A7869ED /* Print */,
+				6F9389DB67089FF721B3EA44 /* Printer */,
+				04ABE92722A5B19B1CB58093 /* Tools */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC4BBA1361D82ED718BEC55B /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C188059AB469FC76F38EF3D5 /* DesignModels.swift */,
+				13A5BA4DBEEB48C6378A5B7A /* DesignRenderer.swift */,
+				EA23C072CBE85CE8542EDE34 /* Templates.swift */,
+				2A7BFD8E1A580247D49C0CDC /* TestPage.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		D0448BDC12A5FC23CF46C7F6 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D28B9E844CD25EF5EC82E705 /* tiny_d1_golden.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		D6B406B9A57564040D46D52E /* PocketPrintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20517F14E6348B442BD30F9C /* PocketPrintUITests.swift */,
+			);
+			path = PocketPrintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DE49AEB43D52BDBE28803A /* PocketPrintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C81B8C983EF80D43306437B /* Build configuration list for PBXNativeTarget "PocketPrintUITests" */;
+			buildPhases = (
+				5E5D2B6027FD9949C6A15A61 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2E6FE4D19BBF8A28D22C655 /* PBXTargetDependency */,
+			);
+			name = PocketPrintUITests;
+			packageProductDependencies = (
+			);
+			productName = PocketPrintUITests;
+			productReference = F303DE3152C927F4EE02C8CA /* PocketPrintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A618E6AC24F3DC7C219CF4AA /* PocketPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97FD4EECE9931ECD0842704 /* Build configuration list for PBXNativeTarget "PocketPrint" */;
+			buildPhases = (
+				211C5EA0632C6208C92219E5 /* Sources */,
+				64DD6005368697570A2E5CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketPrint;
+			packageProductDependencies = (
+			);
+			productName = PocketPrint;
+			productReference = 37750207F5658DCC52B1FD9E /* PocketPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A760CA27286C2C7ECC2C2DE9 /* PocketPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD57B0482462029B9F383FE /* Build configuration list for PBXNativeTarget "PocketPrintTests" */;
+			buildPhases = (
+				D2CE996645C18DB6E403F69A /* Sources */,
+				03110565FF847382FC57BB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FCCEF2831E40DF17A75CF82 /* PBXTargetDependency */,
+			);
+			name = PocketPrintTests;
+			packageProductDependencies = (
+			);
+			productName = PocketPrintTests;
+			productReference = 30A021EA7CF7EADF23DFBF5F /* PocketPrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0469B0E67F15AE509499A496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					50DE49AEB43D52BDBE28803A = {
+						TestTargetID = A618E6AC24F3DC7C219CF4AA;
+					};
+					A618E6AC24F3DC7C219CF4AA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF7452B3F3A02723CA16EB5D /* Build configuration list for PBXProject "PocketPrint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BDCF55D567028FDAF1E893E2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 53020D2CCE3C7340F846CA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618E6AC24F3DC7C219CF4AA /* PocketPrint */,
+				A760CA27286C2C7ECC2C2DE9 /* PocketPrintTests */,
+				50DE49AEB43D52BDBE28803A /* PocketPrintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03110565FF847382FC57BB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DF64F035C69E3FC5271724 /* tiny_d1_golden.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DD6005368697570A2E5CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5CA677C859C7BEA886DF05 /* Assets.xcassets in Resources */,
+				29D3A3E235E990855C705BD3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211C5EA0632C6208C92219E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB841B96F8B94C79161F20BE /* AppRouter.swift in Sources */,
+				4656091ADF074DDB70E34821 /* AppSettings.swift in Sources */,
+				15F079C59ABCA23F3212D064 /* BannerView.swift in Sources */,
+				9E2AF9271475BFDC99500F64 /* BlockEditors.swift in Sources */,
+				8D2AF1AADC49938930555AAD /* CameraPicker.swift in Sources */,
+				6F825E61AA13349E0C72E895 /* Clipboard.swift in Sources */,
+				F87D0870CE1391872B53C83F /* CodeRaster.swift in Sources */,
+				C4471510E5D705C50621A893 /* Components.swift in Sources */,
+				2A18B98A7D00FCF95BEAA0B9 /* CropView.swift in Sources */,
+				A94ED96D0CA41D2A71F662F7 /* DesignEditorView.swift in Sources */,
+				77C36E9BED1ED8CCEB8D5EC9 /* DesignModels.swift in Sources */,
+				BF32424F38F20B17E52CDD51 /* DesignRenderer.swift in Sources */,
+				65C97FF2E014D4494E2D8CA4 /* Dither.swift in Sources */,
+				4EB2B1F88CFE9767F6D5B301 /* DocumentPrintView.swift in Sources */,
+				A7B542B01A5CDFF884414DD6 /* DocumentSource.swift in Sources */,
+				15A37CCAFFBD4A6B67AF263E /* DrawView.swift in Sources */,
+				71923564EE9B959C5CE1A1B7 /* GrayImage.swift in Sources */,
+				902D49F95912487A4FC514AA /* HistoryStore.swift in Sources */,
+				32BCA61AF0729C245CBC5FB4 /* HistoryView.swift in Sources */,
+				A3425BB8465F5D11D2AB5900 /* HomeView.swift in Sources */,
+				5FD93C3685F88058D7C3BF77 /* ImagePipeline.swift in Sources */,
+				8902A51578BE7E8E0F2C3372 /* ImageStore.swift in Sources */,
+				77D144A850FF47DA071DF00D /* MonoBitmap.swift in Sources */,
+				F0ED78DF9FB605882163A128 /* PhotoAdjustmentsPanel.swift in Sources */,
+				E05877C14D95FC4CEAF3C640 /* PhotoEditorView.swift in Sources */,
+				876B61A1C30816FAE96675D0 /* PocketPrintApp.swift in Sources */,
+				4ED92F93A0D97102A30DEE9F /* PrintSheet.swift in Sources */,
+				9C70DCEA8622F1265C02DC9D /* PrinterCatalog.swift in Sources */,
+				6E352EC6542065BBB588EA4B /* PrinterPickerSheet.swift in Sources */,
+				7724AF220FEA73486A05091B /* PrinterService.swift in Sources */,
+				D2A4C620A1F9C53D25FB9DE5 /* PrinterView.swift in Sources */,
+				491EB549783C50DDE7B46624 /* TemplateGalleryView.swift in Sources */,
+				4EE9348FDB8BF4571B1444EF /* Templates.swift in Sources */,
+				B097C47FD6B930E75BF57E18 /* TestPage.swift in Sources */,
+				CC2AA23F13C3D83922782BBB /* TextRaster.swift in Sources */,
+				8268A512DB3CE21E02C8D0F8 /* TextRecognizer.swift in Sources */,
+				3C0A531DCF5A4027B8565F86 /* TinyProtocol.swift in Sources */,
+				F428746DF80FA553E3B5F3CA /* WebPrintView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5D2B6027FD9949C6A15A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757CFBB47867232702690311 /* PocketPrintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CE996645C18DB6E403F69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA350BF82240BF569B8A00B /* PocketPrintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FCCEF2831E40DF17A75CF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618E6AC24F3DC7C219CF4AA /* PocketPrint */;
+			targetProxy = 2A8A4218500D60B3F3F876E9 /* PBXContainerItemProxy */;
+		};
+		A2E6FE4D19BBF8A28D22C655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618E6AC24F3DC7C219CF4AA /* PocketPrint */;
+			targetProxy = ED3E430E79C07E8B33452757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DF33D4F4E5D8BCBE556D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketPrint.app/PocketPrint";
+			};
+			name = Debug;
+		};
+		1FC89EE69A7E311BF7C09A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketPrint.app/PocketPrint";
+			};
+			name = Release;
+		};
+		4AABBCE1E028037910A52366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketPrint;
+			};
+			name = Debug;
+		};
+		75CD07BC174BAA4391EDA713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PocketPrint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app;
+				PRODUCT_NAME = PocketPrint;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		76E7DE67B8CE24226550DB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PocketPrint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app;
+				PRODUCT_NAME = PocketPrint;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9FAC4DA4154DDBC13BC24299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C2B8848D50BD34999EF73B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprint.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketPrint;
+			};
+			name = Release;
+		};
+		DF1DBFECEBB184778601E442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C81B8C983EF80D43306437B /* Build configuration list for PBXNativeTarget "PocketPrintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AABBCE1E028037910A52366 /* Debug */,
+				C2B8848D50BD34999EF73B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF7452B3F3A02723CA16EB5D /* Build configuration list for PBXProject "PocketPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1DBFECEBB184778601E442 /* Debug */,
+				9FAC4DA4154DDBC13BC24299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDD57B0482462029B9F383FE /* Build configuration list for PBXNativeTarget "PocketPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF33D4F4E5D8BCBE556D306 /* Debug */,
+				1FC89EE69A7E311BF7C09A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F97FD4EECE9931ECD0842704 /* Build configuration list for PBXNativeTarget "PocketPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CD07BC174BAA4391EDA713 /* Debug */,
+				76E7DE67B8CE24226550DB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0469B0E67F15AE509499A496 /* Project object */;
+}
